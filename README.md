@@ -1,5 +1,7 @@
 # 프로젝트 시작하기
 
+## 프로젝트 환경설정  
+
 > ### 프로젝트 플더생성
 ```
 $mkdir project-webpack-setup-1
@@ -56,5 +58,10 @@ $npm i -D css-loader style-loader sass-loader sass
 $ npm i html-webpack-plugin -D
 ```
 
+## React설정
 
+> ### bebel
+```
+$npm i -D @babel/core @babel/preset-env babel-loader
+```
 
