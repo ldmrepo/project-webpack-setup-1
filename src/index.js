@@ -1,9 +1,7 @@
-import {sum} from "./hello"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from "./App"
+
 import "./index.scss"
 
-console.log("hello world")
-
-window.addEventListener('DOMContentLoaded', () => {
-    const el = document.getElementById("root")
-    el.innerHTML = `add a + b = ${sum(1,2)}`
-})
+ReactDOM.render(<App/>, document.getElementById("root"))
